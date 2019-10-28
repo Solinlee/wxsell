@@ -2,6 +2,6 @@
 springboot 相关的使用
 
 sprigboot 创建
-集成redis
-集成logBack
-添加全局异常
+    集成redis,
+    集成logBack,
+    添加全局异常
