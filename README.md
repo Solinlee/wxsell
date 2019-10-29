@@ -10,3 +10,5 @@ springboot 相关的使用
   2.1 jdk安装
     - 在这个网页下载对应的jdk,现在Oracle需要账户登录了,在这里提供一个下载账户(网上资源,侵删2696671285@qq.com,密码：Oracle123),https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
     - 
+3. 使用Java搭建微信公众号服务端
+    - com.solin.wxsell.controller.HelleWorldController 按照微信公众开发要求,对接服务器选项

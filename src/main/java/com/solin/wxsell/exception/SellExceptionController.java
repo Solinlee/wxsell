@@ -1,7 +1,6 @@
 package com.solin.wxsell.exception;
 
 
-import com.solin.wxsell.controller.HelleWorld1Controller;
 import com.solin.wxsell.controller.HelleWorldController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-@ControllerAdvice(assignableTypes = {HelleWorldController.class, HelleWorld1Controller.class})
+@ControllerAdvice(assignableTypes = {HelleWorldController.class})
 @ResponseBody
 public class SellExceptionController {
 
