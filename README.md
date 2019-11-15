@@ -12,3 +12,5 @@ springboot 相关的使用
     - 
 3. 使用Java搭建微信公众号服务端
     - com.solin.wxsell.controller.HelleWorldController 按照微信公众开发要求,对接服务器选项
+4. 集成SwaggerAPI使用
+    -   https://blog.csdn.net/qq_28804275/article/details/80891978

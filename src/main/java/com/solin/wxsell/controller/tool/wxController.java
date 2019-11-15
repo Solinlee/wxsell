@@ -1,5 +1,7 @@
 package com.solin.wxsell.controller.tool;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.data.redis.core.script.DigestUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -8,9 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.Collections;
 
+@Api("微信平台验证")
 @RestController
 public class wxController {
 
+    @ApiOperation("微信公众平台验证接口")
     @GetMapping("wx")
     public String wx(@RequestParam String signature, Long timestamp, String nonce, String token,String echostr) {
         ArrayList<String> list = new ArrayList<>();
